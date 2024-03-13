@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="slidecontainer">
+        <h1 class="slidercontainer__title">Atualizando variaveis CSS com <span>JS</span></h1>
+        <div class="slidercontainer__sliders">
+            <label for="sliderSpancing">Spacing:</label>
+            <input type="range" name="sliderSpancing" class="slidecontainer__spacing slidecontainer--sliderCustom" min="0" max="100" value="0">
+            <label for="sliderBlur">Blur:</label>
+            <input type="range" name="sliderBlur" class="slidecontainer__blur slidecontainer--sliderCustom" min="0" max="100" value="0">
+            <label for="color">Base Color:</label>
+            <input type="color" value="#ffffff" name="color" class="slidecontainer__color">
+        </div>
+        <img class="slidecontainer__image" src="img/beach.jpg" alt="imagem de fundo de uma praia">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
