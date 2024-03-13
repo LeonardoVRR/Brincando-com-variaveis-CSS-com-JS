@@ -25,6 +25,7 @@ o projeto foi testado apenas no navegador Google Chrome, então pode ser possive
 
 ## Acesso ao Projeto
 para acessar o projeto utilize o seguinte link:
+https://leonardovrr.github.io/Brincando-com-variaveis-CSS-com-JS/
 
 ## Tecnologias utilizadas
 - HTML5
